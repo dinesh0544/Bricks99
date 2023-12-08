@@ -5,7 +5,7 @@ stages{
 stage('git intergation')
 {
 steps{
-    
+  git branch: 'main', url: 'https://github.com/dinesh0544/Bricks99.git'  
 }
 }
 }
